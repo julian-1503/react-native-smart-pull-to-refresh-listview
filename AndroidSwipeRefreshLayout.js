@@ -12,15 +12,6 @@ import {
 
 export default class AndroidSwipeRefreshLayout extends Component {
 
-    static propTypes = {
-        ...ViewPropTypes,
-        refreshing: PropTypes.bool,
-        enabledPullUp: PropTypes.bool,
-        enabledPullDown: PropTypes.bool,
-        onSwipe: PropTypes.func,
-        onRefresh: PropTypes.func,
-    }
-
     setNativeProps(props) {
         this._nativeSwipeRefreshLayout.setNativeProps(props)
     }

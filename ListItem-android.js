@@ -12,12 +12,6 @@ import {
 
 export default class ListItem extends Component {
 
-
-    static propTypes = {
-        ...ViewPropTypes,
-        renderChildren: PropTypes.func,
-    }
-
     constructor(props) {
         super(props)
         this.state = {

@@ -15,11 +15,6 @@ export default class RefreshView extends Component {
         renderRefreshContent: () => null,
     }
 
-    static propTypes = {
-        ...ViewPropTypes,
-        renderRefreshContent: PropTypes.func,
-    }
-
     constructor (props) {
         super(props)
         this.state = {

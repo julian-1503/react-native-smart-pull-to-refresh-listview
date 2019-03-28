@@ -9,12 +9,6 @@ import {
 
 export default class AndroidFloatSectionHeader extends Component {
 
-    static propTypes = {
-        ...ViewPropTypes,
-        floatSectionHeaderWidth: PropTypes.number.isRequired,
-        renderChildren: PropTypes.func.isRequired,
-    }
-
     constructor (props) {
         super(props)
         this.state = {

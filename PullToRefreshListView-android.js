@@ -91,29 +91,6 @@ class PullToRefreshListView extends Component {
         pageTop: 0,
     }
 
-    static propTypes = {
-        ...ListView.propTypes,
-        pageTop: PropTypes.number,
-        renderFloatSectionHeader: PropTypes.func,
-        floatSectionHeaderWidth: PropTypes.number,
-        listSectionProps: PropTypes.shape(View.propTypes),
-        listItemProps: PropTypes.shape(View.propTypes),
-        renderRowWithVisibility: PropTypes.bool,
-        viewType: PropTypes.oneOf([
-            viewType.scrollView,
-            viewType.listView,
-        ]),
-        pullUpDistance: PropTypes.number,
-        pullUpStayDistance: PropTypes.number,
-        pullDownDistance: PropTypes.number,
-        pullDownStayDistance: PropTypes.number,
-        enabledPullUp: PropTypes.bool,
-        enabledPullDown: PropTypes.bool,
-        autoLoadMore: PropTypes.bool,
-        onRefresh: PropTypes.func,
-        onLoadMore: PropTypes.func,
-    }
-
     constructor (props) {
         super(props)
         this.state = {}
