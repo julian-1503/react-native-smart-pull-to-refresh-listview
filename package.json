@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/react-native-component/react-native-smart-pull-to-refresh-listview.git"
+    "url": "git+https://github.com/julian-1503/react-native-smart-pull-to-refresh-listview.git"
   },
   "keywords": [
     "react-native",
@@ -24,9 +24,9 @@
   "author": "HISAME SHIZUMARU",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/react-native-component/react-native-smart-pull-to-refresh-listview/issues"
+    "url": "https://github.com/julian-1503/react-native-smart-pull-to-refresh-listview/issues"
   },
-  "homepage": "https://github.com/react-native-component/react-native-smart-pull-to-refresh-listview#readme",
+  "homepage": "https://github.com/julian-1503/react-native-smart-pull-to-refresh-listview#readme",
   "dependencies": {
     "react-native-smart-timer-enhance": "^1.0.2",
     "prop-types": "^15.5.10"
